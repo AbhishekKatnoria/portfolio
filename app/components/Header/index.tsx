@@ -9,7 +9,7 @@ const Header = () => {
 
   const animation = {
     duration: 14000,
-    easing: (t) => t,
+    easing: (t: any) => t,
   };
 
   const looping = true;
@@ -44,12 +44,12 @@ const Header = () => {
     <div className="p-8">
       <div
         ref={sliderRef}
-        className="p-7 flex gap-1 border border-borderColor rounded-[32px] keen-slider"
+        className="p-6 flex gap-1 border border-borderColor rounded-[32px] keen-slider"
       >
         {items.map((_, index) => (
           <div
             key={index}
-            className="keen-slider__slide p-4 flex justify-center items-center"
+            className="keen-slider__slide flex justify-center items-center"
           >
             <Image src="/loader.svg" alt="logo" width={20} height={20} />
             <h2 className="text-[22px]">Portfolio</h2>
