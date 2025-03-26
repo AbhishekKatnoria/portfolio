@@ -1,16 +1,21 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* 2️⃣ Root Variables - Easy theming */
 :root {
   --background: #0c0c0c;
   --primary: #101010;
   --secondary: linear-gradient(0deg, #101010, #101010),
-    linear-gradient(337.45deg,
+    linear-gradient(
+      337.45deg,
       rgba(72, 52, 212, 0) 1.13%,
-      rgba(72, 52, 212, 0.2) 99.47%);
+      rgba(72, 52, 212, 0.2) 99.47%
+    );
   --desc-text: #76828d;
   --heading-text: #abb8c4;
 
+  --border-color: #363a3d;
   --border-radius: 8px;
   --shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 
@@ -28,9 +33,11 @@ body {
   --background: #0c0c0c;
   --primary: #101010;
   --secondary: linear-gradient(0deg, #101010, #101010),
-    linear-gradient(337.45deg,
+    linear-gradient(
+      337.45deg,
       rgba(72, 52, 212, 0) 1.13%,
-      rgba(72, 52, 212, 0.2) 99.47%);
+      rgba(72, 52, 212, 0.2) 99.47%
+    );
   --desc-text: #76828d;
   --heading-text: #abb8c4;
 }
@@ -43,7 +50,7 @@ h4,
 h5,
 h6 {
   color: var(--heading-text);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* 5️⃣ Links */
