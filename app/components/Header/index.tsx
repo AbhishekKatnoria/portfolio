@@ -7,7 +7,7 @@ const Header = () => {
   const items = new Array(15).fill(null);
 
   return (
-    <div className="p-8">
+    <div className="m-8">
       <div className="p-6 flex gap-1 border border-borderColor rounded-[32px] keen-slider">
         <Marquee pauseOnHover={true}>
           {items.map((_, index) => (
