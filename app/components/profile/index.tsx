@@ -26,9 +26,9 @@ const Profile = () => {
           </div>
         </div>
         <p>
-          "I am a passionate developer focused on building user-friendly,
+          &quot;I am a passionate developer focused on building user-friendly,
           high-quality solutions while continuously improving my skills and
-          staying updated with industry trends."
+          staying updated with industry trends.&quot;
         </p>
         <div className="flex gap-[18px]">
           <div className="border border-borderColor rounded-2xl bg-background w-full">
