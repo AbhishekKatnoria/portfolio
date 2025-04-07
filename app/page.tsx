@@ -2,7 +2,7 @@ import Profile from "./components/profile";
 
 export default function Home() {
   return (
-    <div className="p-8">
+    <div className="m-8">
       <Profile />
     </div>
   );

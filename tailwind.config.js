@@ -9,11 +9,14 @@ module.exports = {
     extend: {
       colors: {
         background: "var(--background)",
+        backgroundSec: "var(--background-sec)",
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         descText: "var(--desc-text)",
         headingText: "var(--heading-text)",
         borderColor: "var(--border-color)",
+        borderColorSec: "var(--border-color-sec)",
+        borderColorThird: "var(--border-color-third)",
       },
       container: {
         center: true,
