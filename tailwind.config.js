@@ -31,6 +31,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],
+        manrope: ['var(--font-manrope)'],
       },
     },
   },
