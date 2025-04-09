@@ -3,6 +3,15 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
 
+import { Manrope } from "next/font/google";
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"], // Add weights as needed
+  variable: "--font-manrope",
+  display: "swap",
+});
+
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
   variable: "--font-poppins",
@@ -21,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${poppins.variable} antialiased`}>
+      <body className={`${poppins.variable} ${manrope.variable} antialiased`}>
         <Header />
         <main>{children}</main>
       </body>
