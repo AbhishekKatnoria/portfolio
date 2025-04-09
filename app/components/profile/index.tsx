@@ -33,7 +33,9 @@ const Profile = () => {
         </p>
         <div className="flex gap-[18px]">
           <div className="border border-borderColor rounded-2xl bg-background w-full">
-            <h2 className="text-[55px] pt-5 text-center font-manrope">01</h2>
+            <h2 className="text-[55px] text-descTextThird pt-5 text-center font-manrope">
+              01
+            </h2>
             <div className="flex gap-2 items-center justify-center p-[10px] border-[0.5px] border-borderColorThird rounded-[40px] bg-backgroundSec w-full max-w-[126px] m-auto mb-[10px]">
               <Image
                 src="/profile/flag.svg"
@@ -41,11 +43,15 @@ const Profile = () => {
                 width={9.5}
                 height={14}
               />
-              <span className="text-[13px] font-manrope">Projects</span>
+              <span className="text-[13px] font-manrope font-medium text-descTextSec">
+                Projects
+              </span>
             </div>
           </div>
           <div className="border border-borderColor rounded-2xl bg-background w-full">
-            <h2 className="text-[55px] pt-5 text-center font-manrope">01</h2>
+            <h2 className="text-[55px] pt-5 text-center font-manrope text-descTextThird">
+              01
+            </h2>
             <div className="flex gap-2 items-center justify-center p-[10px] border-[0.5px] border-borderColorThird rounded-[40px] bg-backgroundSec w-full max-w-[126px] m-auto mb-[10px]">
               <Image
                 src="/profile/smile.svg"
@@ -53,11 +59,15 @@ const Profile = () => {
                 width={9.5}
                 height={14}
               />
-              <span className="text-[13px] font-manrope">Happy Clients</span>
+              <span className="text-[13px] font-manrope font-medium text-descTextSec">
+                Happy Clients
+              </span>
             </div>
           </div>
           <div className="border border-borderColor rounded-2xl bg-background w-full">
-            <h2 className="text-[55px] pt-5 text-center font-manrope">01</h2>
+            <h2 className="text-[55px] pt-5 text-center font-manrope text-descTextThird">
+              01
+            </h2>
             <div className="flex gap-2 items-center justify-center p-[10px] border-[0.5px] border-borderColorThird rounded-[40px] bg-backgroundSec w-full max-w-[126px] m-auto mb-[10px]">
               <Image
                 src="/profile/star.svg"
@@ -65,7 +75,9 @@ const Profile = () => {
                 width={9.5}
                 height={14}
               />
-              <span className="text-[13px] font-manrope">Year Expertise</span>
+              <span className="text-[13px] font-manrope font-medium text-descTextSec">
+                Year Expertise
+              </span>
             </div>
           </div>
         </div>
