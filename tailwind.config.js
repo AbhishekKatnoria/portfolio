@@ -13,6 +13,8 @@ module.exports = {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         descText: "var(--desc-text)",
+        descTextSec: "var(--desc-text-sec)",
+        descTextThird: "var(--desc-text-third)",
         headingText: "var(--heading-text)",
         borderColor: "var(--border-color)",
         borderColorSec: "var(--border-color-sec)",
@@ -31,7 +33,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["var(--font-poppins)"],
-        manrope: ['var(--font-manrope)'],
+        manrope: ["var(--font-manrope)"],
       },
     },
   },
