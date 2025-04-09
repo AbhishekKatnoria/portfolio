@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Marquee from "react-fast-marquee";
 
 const Profile = () => {
   return (
@@ -67,6 +68,56 @@ const Profile = () => {
               <span className="text-[13px]">Year Expertise</span>
             </div>
           </div>
+        </div>
+        <div className="border border-borderColor rounded-2xl bg-background w-full flex py-[15.5px] gap-4 justify-center">
+          <Marquee pauseOnHover={true}>
+            <div className="flex items-center gap-8">
+              <Image
+                src="/profile/html.svg"
+                alt="html"
+                width={36}
+                height={36}
+              />
+              <Image src="/profile/css.svg" alt="css" width={36} height={36} />
+              <Image
+                src="/profile/javascript.svg"
+                alt="javascript"
+                width={36}
+                height={36}
+              />
+              <Image
+                src="/profile/tailwind.svg"
+                alt="tailwind"
+                width={36}
+                height={36}
+              />
+              <Image
+                src="/profile/react.svg"
+                alt="react"
+                width={36}
+                height={36}
+              />
+              <Image
+                src="/profile/nextjs-icon.png"
+                alt="nextjs"
+                width={36}
+                height={36}
+              />
+              <Image
+                src="/profile/redux.svg"
+                alt="redux"
+                width={36}
+                height={36}
+              />
+              <Image
+                src="/profile/ai.svg"
+                alt="ai"
+                width={36}
+                height={36}
+                className="mr-9"
+              />
+            </div>
+          </Marquee>
         </div>
       </div>
     </div>
